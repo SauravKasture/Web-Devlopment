@@ -1,0 +1,19 @@
+h1{
+    color: yellow;
+    background-color: grey;
+}
+
+p{
+    color: red;
+    background-color: aquamarine;
+}
+
+button{
+    color: pink;
+    background-color: rgb(151, 91, 13);
+    padding-inline: 20px;
+    padding-block: 10px;
+}
+::selection{
+    background-color: rgba(127, 146, 148, 0.295);
+}

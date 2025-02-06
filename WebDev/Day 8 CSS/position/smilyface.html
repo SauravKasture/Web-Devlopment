@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smilyface</title>
+    <style>
+      .container {
+        background-color: white;
+        width: 500px;
+        height: 500px;
+      }
+
+      .outerbox {
+        position: relative;
+        height: 300px;
+        width: 300px;
+        background-color: #ffa511;
+        border-radius: 50%;
+      }
+      .eye {
+        height: 20px;
+        width: 20px;
+        background-color: black;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 79px;
+        transform: translate(83px, 78px);
+      }
+      .smile {
+        width: 40%;
+        height: 10%;
+        background-color: brown;
+        border-bottom-right-radius: 54px;
+        border-bottom-left-radius: 54px;
+        position: absolute;
+        top: 69%;
+        left: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="outerbox">
+        <div class="eye"></div>
+        <div class="eye"></div>
+        <div class="smile"></div>
+      </div>
+    </div>
+  </body>
+</html>

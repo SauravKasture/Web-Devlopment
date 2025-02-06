@@ -1,0 +1,27 @@
+h2{
+    color: orange;
+}
+
+button{
+    background-color: blue;
+    color: white;
+}
+
+p{
+    text-align: justify;
+    background-color: black;
+    color: white;
+}
+div{
+    
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+    border-radius: 26%;
+}
+.c1{
+    background-color: rgb(255,150,000);
+}
+.c2{
+    background-color: rgb(72, 72, 226);
+}

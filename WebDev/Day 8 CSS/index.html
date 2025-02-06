@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 8 css</title>
+    <style>
+        .box{
+            height: 300px;
+            width: 300px;
+            background-color: rgba(10, 223, 10, 0.712);
+            margin: 4px;    
+        }
+       .sec{
+        height: 300px;
+            width: 300px;
+            background-color: rgba(223, 88, 10, 0.712);
+            opacity: 0.5;
+          
+           /* transition: background-color, border-radius;
+           transition-delay:0.1s;
+           transition-duration: 1s;
+           transition-timing-function: ease-in; */
+            /* transition: background-color, border-radius, 1s, ease-in, 1s; */
+            transition: background-color,border-radius, 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.2s;
+        }
+
+        .sec:hover{
+            background-color: yellow;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        
+    </div>
+   <div class="sec">
+    <button>
+        Click me
+    </button>
+   </div>
+
+   
+</body>
+</html>

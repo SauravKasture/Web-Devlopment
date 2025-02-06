@@ -1,0 +1,53 @@
+
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    /* animation-name: fontAnimation, coloranim;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+    animation: fontAnimation, coloranim 6s ease-in 0s infinite alternate-reverse;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+
+
+@keyframes fontAnimation {
+    0%{
+        font-size:1.5em ;
+        color: yellow;
+    }
+
+    45%{
+        font-size: 2.5em;
+    }
+    80%{
+        color: green;
+   
+    }
+    
+}
+
+@keyframes coloranim {
+    from{
+     background-color: rgb(0, 38, 255);
+     width: 10px;
+  
+    color: pink;
+   
+        
+    }
+
+    to{
+       background-color: rgb(255, 0, 200);
+       text-justify: auto;
+       font-size: clamp(1px,150px,45px);
+       width: 400px;
+       border-radius: 15px;
+       
+    }
+    
+}

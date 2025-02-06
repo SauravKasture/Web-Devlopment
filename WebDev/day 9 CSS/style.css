@@ -1,0 +1,35 @@
+.container{
+    height: 500px;
+    border: 2px solid black;
+    width: 80%;
+    background-color: rgb(150, 214, 214);
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* align-items: baseline;
+    */
+    align-content: center;
+
+
+}
+    
+
+h1{
+    text-align: center;
+}
+.container div{
+
+    height: 100px;
+    width: 100px;
+    color: white;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+#orange{
+    flex-shrink: 2;
+}
+div:nth-child(2){
+    flex-shrink: 3;
+}
+   
