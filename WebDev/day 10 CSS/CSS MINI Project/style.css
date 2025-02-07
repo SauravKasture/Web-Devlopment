@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main_box{
+    height: 100vh;
+
+    background: url("https://github.com/apna-college/Delta/blob/main/CSS/Mini%20Project/photo.jpg?raw=true");
+    background-position: center;
+    background-size: cover;
+ 
+}
+.btn_one{
+    color:white;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 16px;
+    line-height: 60px;
+}
+.btn_one i{
+    font-size: 20px;
+}
+.sidebar_menu{
+    position: fixed;
+    left:-500px;
+    height: 100vh;
+    width: 40%;
+    background-color: rgba(255, 255, 255,0.1);
+   transition: all 2s;
+}
+.sidebar_menu .logo {
+    height: 60px;
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    box-shadow: 0 0 4px rgba(255,255,255,0.5);
+}
+
+.sidebar_menu .logo a{
+    position: absolute;
+    left: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sidebar_menu .menu{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+}
+
+.btn_two i{
+    color:white;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    right: 10px;
+    line-height: 60px;
+    opacity: 1;
+}
+.sidebar_menu .menu li{
+    margin-top: 6px;
+    padding: 10px 20px;
+    text-decoration: none;
+
+}
+.sidebar_menu .menu li a,i {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+
+}
+
+.social_media{
+    position: absolute;
+    color: white;
+    opacity: 0.6;
+    left: 25px;
+
+}
+
+.social_media i{
+    padding: 0 6px;
+    opacity: 0.5;
+   transition-property: all;
+   transition-duration: 0.5s;
+   transition-timing-function: ease-in-out;
+    transition-delay: 0.3ms;    
+
+}
+#check{
+    display: none;
+}
+
+.sidebar_menu .menu li:hover{
+   box-shadow: 0 0 6px rgba(255,255,255,0.5);;
+}
+
+.btn_one i:hover{
+    font-size: 30px;
+  
+}
+
+.social_media i:hover{
+    opacity: 1;
+    transform: translateY(-10px) scale(1.2);
+    color: #fff;
+}
+
+#check:checked ~ .sidebar_menu{
+  left: 0;
+}
+#check:checked ~ .btn_one i{
+    display: none;
+}
+
+
